@@ -36,3 +36,29 @@ console.log(typeof scoreValue)
 console.log(typeof myFunction)
 console.log(typeof heros)
 console.log(typeof myObj)
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "RRisOP"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(anotherName);
+console.log(myYoutubeName)
+
+let user1 = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "rr@google.com"
+
+console.log(user1.email)
+console.log(user2.email)
